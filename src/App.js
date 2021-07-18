@@ -15,7 +15,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home}/>
         <Route path="/add-List" component={AddList}/>
-        <Route path="/list-detail" component={ListDetail}/>
+        <Route path="/list-detail/:id" component={ListDetail}/>
         <Route path= "/completed-list" component={CompletedList}/>
       </Switch>
     </div>
